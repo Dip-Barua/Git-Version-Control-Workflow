@@ -1,0 +1,20 @@
+name: Print Sample Log
+
+on:
+  push:
+    branches:
+        - main
+
+
+jobs:
+  print-log:
+    runs-on: ubuntu-latest
+    steps:
+        - name: checkout repository
+          uses: actions/checkout@v2
+
+        - name: Display hello.txt content
+          run: |
+                echo "Reading content of hello.txt"
+                cat hello.txt
+                echo "Content of hello.txt displayed successfully"
