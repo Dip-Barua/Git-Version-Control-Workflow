@@ -1,1 +1,6 @@
 This is a sample file created on the 'dev' branch to demonstrate Git branching and merging.
+
+
+
+
+Adding new text to commit in the remote repo and monitoring the log that triggers with the push event which is the inplemented part of basic CI pipeline with github actions.
